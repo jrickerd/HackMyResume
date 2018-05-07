@@ -628,7 +628,7 @@ var _fromTo = function( dateA, dateB, fmt, sep, fallback ) {
   const dateBTrim = dateB.trim().toLowerCase();
   const reserved = ['current','present','now', ''];
 
-  fmt = (fmt && String.is(fmt) && fmt) || 'YYYY-MM';
+  fmt = (fmt && String.is(fmt) && fmt) || 'MMM YYYY';
   sep = (sep && String.is(sep) && sep) || ' — ';
 
   if (_.contains( reserved, dateATrim )) {

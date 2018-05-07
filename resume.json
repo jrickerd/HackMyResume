@@ -1,107 +1,212 @@
 {
-  "basics": {
-    "name": "John Rickerd",
-    "label": "Senior Developer",
-    "summary": "**Full-stack software developer with 20 years industry experience** specializing in cloud-driven web applications and mobile apps.",
-    "website": "http://resume.rickerd.org",
-    "phone": "1.208.395.1290",
-    "email": "john@rickerd.org",
-    "picture": "jane_doe.png",
-    "location": {
-      "address": "John Rickerd\n11026 W. Ustick #105\nBoise, ID 83713",
-      "postalCode": "83713",
-      "city": "Boise",
-      "countryCode": "US",
-      "region": "ID"
+    "basics": {
+        "name": "John Rickerd",
+        "label": "Senior Developer",
+        "summary": "**Full stack and mobile developer.**   [[pdf](http://resume.rickerd.org/resume.pdf)] [[md](http://resume.rickerd.org/resume.md)] [[doc](http://resume.rickerd.org/resume.doc)]",
+        "website": "http://resume.rickerd.org",
+        "phone": "1.208.395.1290",
+        "email": "john@rickerd.org",
+        "picture": "jane_doe.png",
+        "location": {
+            "address": "John Rickerd\n7646 ODaniel Ct\nGlen Burnie, MD 21061",
+            "postalCode": "21061",
+            "city": "Glen Burnie",
+            "countryCode": "US",
+            "region": "MD"
+        },
+        "profiles": [
+            {
+                "network": "GitHub",
+                "username": "jrickerd",
+                "url": "https://github.com/jrickerd"
+            }
+        ]
     },
-    "profiles": [
-      {
-        "network": "GitHub",
-        "username": "jrickerd",
-        "url": "https://github.com/jrickerd"
-      }
+    "work": [
+        {
+            "company": "Declara",
+            "website": "https://corp.declara.com",
+            "position": "Software Developer",
+            "startDate": "2014-01",
+            "summary": "Full Spectrum Developer",
+            "keywords": [
+                "Agile",
+                "Xamarin",
+                "C#",
+                "Android",
+                "iOS",
+                "Objective-C",
+                "Spring",
+                "Java",
+                "MySQL",
+                "PostgreSQL",
+                "JIRA",
+                "Python",
+                "Django",
+                "Elasticsearch",
+                "Angular",
+                "Node"
+            ],
+            "highlights": [
+                "**Xamarin:** I prototyped a Xamarin (C#) Android app in tandem with another engineer who built an iOS app. We determined that unifying the platforms was not practical due to networking libraries.",
+                "**Android:** I assisted out Android developer with backend integration and app architecture. I brought in Dagger and Butterknife to simplify Activity wireup. I also integrated RxAndroid to tame response handling.",
+                "**iOS:** Developed several prototype iOS apps as part of 8 member team. After the team was downsized to 2 engineers, I provided backend support. Eventually, I became the primary iOS developer.",
+                "**Cordova:** Integrated Android push notifications into a Cordova client wrapper app.",
+                "**Django:** Built backend components and implemented services using Django. I also used Scrapy (which is built on Django) to build custom content importers.",
+                "**Spring:** Implemented backend and external services with Spring.",
+                "**Angular:** Built and maintained Angular client.",
+                "**Node:** Maintained node.js admin service."
+            ]
+        },
+        {
+            "company": "Behavior Imaging",
+            "website": "https://behaviorimaging.com/",
+            "position": "Director of Technology",
+            "startDate": "2012-01",
+            "endDate": "2014-01",
+            "keywords": [
+                "PHP",
+                "Symfony2",
+                "MySQL",
+                "AWS",
+                "ExtJS",
+                "JIRA"
+            ],
+            "summary": "Led development of autism assessment platform and app.",
+            "highlights": [
+                "**[Behavior Connect](https://behaviorimaging.com/products/behavior-connect/):** Developed specifications for Behavior Connect and Assessment View products.  Oversaw  all phases of development and deployment.  Both products are developed in PHP, using the Symfony2 framework.  The UI is built with ExtJS.",
+                "**[Assessment View](https://behaviorimaging.com/products/assessment-view/):** Supported the State of Mississippi while they used the Assessment View product to perform alternate assessment – around 1,300 teachers utilized Assessment View to perform assessments on 3,600 students.",
+                "**[NODA](https://behaviorimaging.com/noda/):** Supported the State of Mississippi while they used the Assessment View product to perform alternate assessment – around 1,300 teachers utilized Assessment View to perform assessments on 3,600 students.",
+                "**iOS:** Specified and managed development of specialized versions of Behavior Connect, including custom iOS apps used for data collection."
+            ]
+        },
+        {
+            "company": "Blackfin/Xtreme Consulting",
+            "position": "Software Engineer",
+            "startDate": "2006-05",
+            "endDate": "2012-01",
+            "keywords": [
+                "Agile",
+                "MySQL",
+                "PostgreSQL",
+                "SQLServer",
+                "JIRA",
+                "PHP",
+                "Drupal",
+                "C#",
+                "VB.NET",
+                "ASP.NET MVC",
+                "SVN",
+                "Perforce",
+                "VSTO (Visual Studio Tools for Office)",
+                "Visual Basic for Applications (VBA)",
+                "ANTLR"
+            ],
+            "summary": "Software development consultant",
+            "highlights": [
+                "**Idaho Dept of Labor:** Maintained and improved Idaho Department of Labor Unemployment Insurance fraud tracking web application built in VB.NET.",
+                "**Microsoft:** Developed an application to generate and validate software loan offers. The financial rules were highly dynamic and complex. I implemented a simple DSL to translate textual rules (stored in the DB) to C# Expressions, which were bound to client-side validators. I also implemented a simple ANTLR parser to assist with testing.",
+                "**Microsoft/ProClarity:** ",
+                "**Idaho Department of Education:** Longitudinal Data System – worked on ASP.NET MVC user applications, Schoolnet data integration and general reporting.",
+                "**[Healthwise](http://www.healthwise.org):** ",
+                "**Boise Cascade:**",
+                "**Idaho Dept of Lands:** Built [timber sale tracking app](http://web.idl.idaho.gov/timbersale/Search.aspx) using Windows Workflow Foundation and ASP.NET; integrated with IDL site.",
+                "**Drupal:** [Craneweb](https://craneweb.com) [Farmhouse Collection](https://www.farmhousecollection.com)"
+            ]
+        },
+        {
+            "company": "Hewlett Packard",
+            "position": "Software Engineer",
+            "startDate": "2001-01",
+            "endDate": "2005-06",
+            "keywords": [
+                "Java",
+                "Rational ClearCase",
+                "SVN"
+            ],
+            "summary": "",
+            "highlights": [
+                "**Software Engineer:**",
+                "**Contract Software Engineer:**"
+            ]
+        },
+        {
+            "company": "Hewlett Packard",
+            "position": "Contract Software Engineer",
+            "startDate": "2001-01",
+            "endDate": "2005-06",
+            "keywords": [
+                "Perl",
+                "Rational ClearCase"
+            ],
+            "summary": "",
+            "highlights": [
+                "**Software Engineer II:**",
+                "**Contract Software Engineer II**"
+            ]
+        }
+    ],
+    "education": [
+        {
+            "institution": "Boise State University",
+            "startDate": "Sept 1997",
+            "endDate": "May 2000"
+        },
+        {
+            "institution": "University of Idaho",
+            "startDate": "Sept 1989",
+            "endDate": "May 1991"
+        },
+        {
+            "institution": "University of Puget Sound",
+            "startDate": "Sept 1987",
+            "endDate": "May 1989"
+        }
+    ],
+    "skills": [
+        {
+            "name": "Web",
+            "level": "advanced",
+            "keywords": [
+                "JavaScript",
+                "jQuery",
+                "ExtJS",
+                "Spring",
+                "Django",
+                "Drupal",
+                "Symfony2",
+                "ASP.NET MVC"
+            ]
+        },
+        {
+            "name": "Mobile",
+            "level": "advanced",
+            "keywords": [
+                "Android",
+                "Gradle",
+                "RxAndroid",
+                "Retrofit",
+                "Dagger/Butterknife",
+                "iOS",
+                "Objective-C",
+                "Cocoapods",
+                "Restangular"
+            ]
+        },
+        {
+            "name": "Mobile",
+            "level": "advanced",
+            "keywords": [
+                "Android",
+                "Gradle",
+                "RxAndroid",
+                "Retrofit",
+                "Dagger/Butterknife",
+                "iOS",
+                "Objective-C",
+                "Cocoapods",
+                "Restangular"
+            ]
+        }
     ]
-  },
-  "work": [
-    {
-      "company": "Declara",
-      "website": "https://declara.com",
-      "position": "Software Developer",
-      "startDate": "2014-01",
-      "summary": "Fullstack and Mobile Developer",
-      "highlights": [
-        "Prototyped mobile app for Android using Xamarin/C#.",
-        "Built custom client app using Cordova, integrating push notifications with the web app.",
-        "Built backend components with Python (Django) and Java (Spring)",
-        "Worked on frontend in Angular",
-        "Developed and deployed mobile apps for iOS and Android using Objective C and Java, focusing on Android."
-      ]
-    },
-    {
-      "company": "Behavior Imaging",
-      "website": "https://behaviorimaging.com/",
-      "position": "Director of Technology",
-      "startDate": "2012-01",
-      "endDate": "2014-01",
-      "summary": "Oversaw development of autism assessment platform and app.",
-      "highlights": [
-        "Developed specifications for Behavior Connect and Assessment View products.  Oversaw  all phases of development and deployment.  Both products are developed in PHP, using the Symfony2 framework.  The UI is built with ExtJS.",
-        "Supported the State of Mississippi while they used the Assessment View product to perform alternate assessment – around 1,300 teachers utilized Assessment View to perform assessments on 3,600 students.",
-        "Specified and managed development of specialized versions of Behavior Connect, including custom iOS apps used for data collection."
-      ]
-    },
-    {
-      "company": "Blackfin/Xtreme Consulting",
-      "position": "Software Engineer",
-      "startDate": "2006-05",
-      "endDate": "2012-01",
-      "summary": "Software development consultant",
-      "highlights": [
-        "Maintained and improved Idaho Department of Labor Unemployment Insurance fraud tracking web application.",
-        "Built rules-driven Finance application for Microsoft to generate loan offer information.",
-        "Idaho State Department of Education Longitudinal Data System – worked on ASP.NET MVC user applications, Schoolnet data integration and general reporting.",
-        "Worked on Excel-based health data ingestion tool for Healthwise.",
-        "Developed several Drupal sites – evaluated various PHP CMS offerings, developed expertise with Drupal and trained other engineers in Drupal development and deploy techniques.  "
-      ]
-    },
-    {
-      "company": "Hewlett Packard",
-      "position": "Software Engineer",
-      "startDate": "2001-01",
-      "endDate": "2005-06",
-      "summary": "",
-      "highlights": []
-    }
-  ],
-  "education": [
-    {
-      "institution": "Boise State University",
-      "startDate": "1997",
-      "endDate": "2000"
-    },
-    {
-      "institution": "University of Idaho",
-      "startDate": "1989",
-      "endDate": "1991"
-    },
-    {
-      "institution": "University of Puget Sound",
-      "startDate": "Blah 1987",
-      "endDate": "May 1989"
-    }
-  ],
-  "skills": [
-    {
-      "name": "Web",
-      "level": "advanced",
-      "keywords": [
-        "JavaScript",
-        "HTML 5",
-        "CSS",
-        "LAMP",
-        "MVC",
-        "REST"
-      ]
-    }
-  ]
 }

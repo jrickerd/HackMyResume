@@ -643,3 +643,15 @@ MIT. Go crazy. See [LICENSE.md][1] for details.
 [gh]: https://gitter.im/hacksalot/HackMyResume?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge
 [badge]: https://badges.gitter.im/hacksalot/HackMyResume.svg
 [hrh]: http://handlebarsjs.com/reference.html#base-registerHelper
+
+## Local Instructions
+```bash
+nvm use default
+npm install grunt
+npm install
+npm link
+hackmyresume build resume.json to out/resume.all -t compact
+# or
+grunt resume 
+```
+Check for themes in node_modules/fresh_themes/themes and node_modules/jsonresume-theme-*

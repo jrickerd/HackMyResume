@@ -18,19 +18,34 @@ module.exports = function (grunt) {
     },
 
     clean: {
-      test: ['test/sandbox']
+      test: ['test/sandbox', 'out/*']
     },
 
     eslint: {
       target: ['Gruntfile.js', 'src/**/*.js', 'test/*.js']
+    },
+    
+    shell: {
+        resume: {
+            command: 'node src/cli/index.js build resume.json to out/resume.all -t compact'
+        },
+        publish: {
+            command: [
+                'cp out/resume.html ./jrickerd.github.io/resume.html',
+                'cp out/resume.md ./jrickerd.github.io/resume.md',
+                'cp out/resume.pdf ./jrickerd.github.io/resume.pdf',
+                'cp out/resume.doc ./jrickerd.github.io/resume.doc'
+            ].join(';')
+        }
     }
 
   };
 
-  grunt.initConfig( opts );
+  grunt.initConfig(opts);
   grunt.loadNpmTasks('grunt-simple-mocha');
   grunt.loadNpmTasks('grunt-eslint');
   grunt.loadNpmTasks('grunt-contrib-clean');
+  grunt.loadNpmTasks('grunt-shell');
 
   // Use 'grunt test' for local testing
   grunt.registerTask('test', 'Test the HackMyResume application.',
@@ -46,6 +61,9 @@ module.exports = function (grunt) {
     }
   );
 
+  grunt.registerTask('resume', 'shell:resume');
+  grunt.registerTask('publish', ['shell:resume', 'shell:publish']);
+  
   // Default task does everything
   grunt.registerTask('default', [ 'test' ]);
 

@@ -99,6 +99,7 @@
     "grunt-contrib-copy": "^1.0.0",
     "grunt-eslint": "^20.1.0",
     "grunt-simple-mocha": "*",
+    "grunt-shell": "0.7.0",
     "jsonresume-theme-boilerplate": "^0.1.2",
     "jsonresume-theme-classy": "^1.0.9",
     "jsonresume-theme-modern": "0.0.18",
