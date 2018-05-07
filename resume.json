@@ -1,0 +1,107 @@
+{
+  "basics": {
+    "name": "John Rickerd",
+    "label": "Senior Developer",
+    "summary": "**Full-stack software developer with 20 years industry experience** specializing in cloud-driven web applications and mobile apps.",
+    "website": "http://resume.rickerd.org",
+    "phone": "1.208.395.1290",
+    "email": "john@rickerd.org",
+    "picture": "jane_doe.png",
+    "location": {
+      "address": "John Rickerd\n11026 W. Ustick #105\nBoise, ID 83713",
+      "postalCode": "83713",
+      "city": "Boise",
+      "countryCode": "US",
+      "region": "ID"
+    },
+    "profiles": [
+      {
+        "network": "GitHub",
+        "username": "jrickerd",
+        "url": "https://github.com/jrickerd"
+      }
+    ]
+  },
+  "work": [
+    {
+      "company": "Declara",
+      "website": "https://declara.com",
+      "position": "Software Developer",
+      "startDate": "2014-01",
+      "summary": "Fullstack and Mobile Developer",
+      "highlights": [
+        "Prototyped mobile app for Android using Xamarin/C#.",
+        "Built custom client app using Cordova, integrating push notifications with the web app.",
+        "Built backend components with Python (Django) and Java (Spring)",
+        "Worked on frontend in Angular",
+        "Developed and deployed mobile apps for iOS and Android using Objective C and Java, focusing on Android."
+      ]
+    },
+    {
+      "company": "Behavior Imaging",
+      "website": "https://behaviorimaging.com/",
+      "position": "Director of Technology",
+      "startDate": "2012-01",
+      "endDate": "2014-01",
+      "summary": "Oversaw development of autism assessment platform and app.",
+      "highlights": [
+        "Developed specifications for Behavior Connect and Assessment View products.  Oversaw  all phases of development and deployment.  Both products are developed in PHP, using the Symfony2 framework.  The UI is built with ExtJS.",
+        "Supported the State of Mississippi while they used the Assessment View product to perform alternate assessment – around 1,300 teachers utilized Assessment View to perform assessments on 3,600 students.",
+        "Specified and managed development of specialized versions of Behavior Connect, including custom iOS apps used for data collection."
+      ]
+    },
+    {
+      "company": "Blackfin/Xtreme Consulting",
+      "position": "Software Engineer",
+      "startDate": "2006-05",
+      "endDate": "2012-01",
+      "summary": "Software development consultant",
+      "highlights": [
+        "Maintained and improved Idaho Department of Labor Unemployment Insurance fraud tracking web application.",
+        "Built rules-driven Finance application for Microsoft to generate loan offer information.",
+        "Idaho State Department of Education Longitudinal Data System – worked on ASP.NET MVC user applications, Schoolnet data integration and general reporting.",
+        "Worked on Excel-based health data ingestion tool for Healthwise.",
+        "Developed several Drupal sites – evaluated various PHP CMS offerings, developed expertise with Drupal and trained other engineers in Drupal development and deploy techniques.  "
+      ]
+    },
+    {
+      "company": "Hewlett Packard",
+      "position": "Software Engineer",
+      "startDate": "2001-01",
+      "endDate": "2005-06",
+      "summary": "",
+      "highlights": []
+    }
+  ],
+  "education": [
+    {
+      "institution": "Boise State University",
+      "startDate": "1997",
+      "endDate": "2000"
+    },
+    {
+      "institution": "University of Idaho",
+      "startDate": "1989",
+      "endDate": "1991"
+    },
+    {
+      "institution": "University of Puget Sound",
+      "startDate": "Blah 1987",
+      "endDate": "May 1989"
+    }
+  ],
+  "skills": [
+    {
+      "name": "Web",
+      "level": "advanced",
+      "keywords": [
+        "JavaScript",
+        "HTML 5",
+        "CSS",
+        "LAMP",
+        "MVC",
+        "REST"
+      ]
+    }
+  ]
+}
