@@ -74,9 +74,9 @@
             ],
             "summary": "Led development of autism assessment platform and app.",
             "highlights": [
-                "**[Behavior Connect](https://behaviorimaging.com/products/behavior-connect/):** Developed specifications for Behavior Connect and Assessment View products.  Oversaw  all phases of development and deployment.  Both products are developed in PHP, using the Symfony2 framework.  The UI is built with ExtJS.",
+                "**[Behavior Connect](https://behaviorimaging.com/products/behavior-connect/):** ",
                 "**[Assessment View](https://behaviorimaging.com/products/assessment-view/):** Supported the State of Mississippi while they used the Assessment View product to perform alternate assessment – around 1,300 teachers utilized Assessment View to perform assessments on 3,600 students.",
-                "**[NODA](https://behaviorimaging.com/noda/):** Supported the State of Mississippi while they used the Assessment View product to perform alternate assessment – around 1,300 teachers utilized Assessment View to perform assessments on 3,600 students.",
+                "**[NODA](https://behaviorimaging.com/noda/):** NODA was a research project conducted with Georgia Tech and SARRC.",
                 "**iOS:** Specified and managed development of specialized versions of Behavior Connect, including custom iOS apps used for data collection."
             ]
         },
@@ -104,14 +104,14 @@
             ],
             "summary": "Software development consultant",
             "highlights": [
-                "**Idaho Dept of Labor:** Maintained and improved Idaho Department of Labor Unemployment Insurance fraud tracking web application built in VB.NET.",
+                "**Idaho Dept of Labor:** Maintained and improved Idaho Department of Labor Unemployment Insurance VB.NET fraud tracking web application.",
                 "**Microsoft:** Developed an application to generate and validate software loan offers. The financial rules were highly dynamic and complex. I implemented a simple DSL to translate textual rules (stored in the DB) to C# Expressions, which were bound to client-side validators. I also implemented a simple ANTLR parser to assist with testing.",
-                "**Microsoft/ProClarity:** ",
+                "**Microsoft/ProClarity:** Assisted with Delphi legacy support after Microsoft acquired ProClarity.",
                 "**Idaho Department of Education:** Longitudinal Data System – worked on ASP.NET MVC user applications, Schoolnet data integration and general reporting.",
-                "**[Healthwise](http://www.healthwise.org):** ",
-                "**Boise Cascade:**",
+                "**[Healthwise](http://www.healthwise.org):** Consulted as VSTO expert on Excel-based data entry application to simplify medical diagnosis rules.",
+                "**Boise Cascade:** I built an Excel app for users to generate material estimates based on structure layout. I also developed a desktop app that parsed lumbermill log data and generated metrics using Excel pivot tables.",
                 "**Idaho Dept of Lands:** Built [timber sale tracking app](http://web.idl.idaho.gov/timbersale/Search.aspx) using Windows Workflow Foundation and ASP.NET; integrated with IDL site.",
-                "**Drupal:** [Craneweb](https://craneweb.com) [Farmhouse Collection](https://www.farmhousecollection.com)"
+                "**Drupal:** I developed a number of Drupal sites; notable instances include [Craneweb](https://craneweb.com) and [Farmhouse Collection](https://www.farmhousecollection.com)."
             ]
         },
         {
@@ -126,22 +126,20 @@
             ],
             "summary": "",
             "highlights": [
-                "**Software Engineer:**",
-                "**Contract Software Engineer:**"
+                "**Software Engineer:**"
             ]
         },
         {
             "company": "Hewlett Packard",
             "position": "Contract Software Engineer",
-            "startDate": "2001-01",
-            "endDate": "2005-06",
+            "startDate": "1998-06",
+            "endDate": "2001-01",
             "keywords": [
                 "Perl",
                 "Rational ClearCase"
             ],
             "summary": "",
             "highlights": [
-                "**Software Engineer II:**",
                 "**Contract Software Engineer II**"
             ]
         }
