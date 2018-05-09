@@ -40,3 +40,5 @@ tramp
 
 # cask packages
 .cask/
+
+phantomjs*
