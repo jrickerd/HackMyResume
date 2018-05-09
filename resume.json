@@ -218,7 +218,8 @@
                 "VBA",
                 "C/C++",
                 "PowerShell",
-                "Objective-C"
+                "Objective-C",
+                "Perl"
             ]
         },
         {
@@ -226,7 +227,9 @@
             "level": "advanced",
             "keywords": [
                 "Git",
-                "Gradle"
+                "Gradle",
+                "AWS",
+                "Kafka"
             ]
         }
     ]
