@@ -650,6 +650,12 @@ nvm use default
 npm install grunt
 npm install
 npm link
+
+# install PhantomJS
+curl -L 'https://bitbucket.org/ariya/phantomjs/downloads/phantomjs-2.1.1-macosx.zip' -o phantom.zip
+unzip phantom.zip
+# ln -s phantomjs-2.1.1-macosx/ phantomjs
+export PATH="$PATH:./phantomjs"
 hackmyresume build resume.json to out/resume.all -t compact
 # or
 grunt resume 

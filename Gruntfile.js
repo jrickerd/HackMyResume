@@ -18,7 +18,7 @@ module.exports = function (grunt) {
     },
 
     clean: {
-      test: ['test/sandbox', 'out/*']
+      test: ['test/sandbox', 'out']
     },
 
     eslint: {
