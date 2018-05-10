@@ -75,10 +75,10 @@
             ],
             "summary": "Led development of assessment platform and iOS apps. Administered AWS environment.",
             "highlights": [
-                "**[Behavior Connect](https://behaviorimaging.com/products/behavior-connect/):** Behavior Connect was the core platform. I developed the the specification to rebuild the platform. I also worked with additional clients to support other uses, notably pharmaceutical trials.",
-                "**[Assessment View](https://behaviorimaging.com/products/assessment-view/):** AssessmentView was based off of Behavior Connect, targeting K-12 Alternate Assessment. I administered the AWS infrastructure and provided support to end users.",
-                "**[NODA](https://behaviorimaging.com/noda/):** NODA was a research project conducted with Georgia Tech and SARRC; an iOS app was developed to allow caregivers to record and upload video of patient behaviors for clinician analysis. The video was tagged with DSM IV generated tags to quantify diagnostics.",
-                "**iOS:** Specified and managed development of specialized versions of Behavior Connect, including custom iOS apps used for data collection."
+                "**[Assessment View](https://behaviorimaging.com/products/assessment-view/)** is a platform for administering alternative assessments for K-12 students. Initially, it was build in PHP using the Zend Framework and a Flash frontend. I worked with a remote team to redesign and build the second version using Symfony2 and ExtJS. I also built and maintained the AWS host infrastructure. While the v2 development was underway, I supported version 1.",
+                "**[Behavior Connect](https://behaviorimaging.com/products/behavior-connect/)** is a platform for remotely diagnosing Autism, based on the Assessment View codebase. I oversaw design and development of version 2, including merging AssessmentView functionality.", 
+                "**[NODA](https://behaviorimaging.com/noda/):** NODA was a research project conducted with Georgia Tech and SARRC. An iOS app was developed to allow caregivers to record and upload video of patient behaviors for clinician analysis. The video was tagged with DSM IV generated tags to quantify diagnostics.",
+                "**iOS:** Specified and managed development of specialized versions of Behavior Connect, including custom iOS apps used for video data collection."
             ]
         },
         {
