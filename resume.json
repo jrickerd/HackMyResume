@@ -50,7 +50,7 @@
             ],
             "highlights": [
                 "**Xamarin:** I prototyped a Xamarin (C#) Android app in tandem with another engineer who built an iOS app. We determined that unifying the platforms was not practical due to networking libraries.",
-                "**Android:** I assisted out Android developer with backend integration and app architecture. I brought in Dagger and Butterknife to simplify Activity wireup. I also integrated RxAndroid to tame response handling.",
+                "**Android:** I assisted our Android developer with backend integration and app architecture. I brought in Dagger and Butterknife to simplify Activity wireup. I also integrated RxAndroid to tame response handling.",
                 "**iOS:** Developed several prototype iOS apps as part of 8 member team. After the team was downsized to 2 engineers, I provided backend support. Eventually, I became the primary iOS developer.",
                 "**Cordova:** Integrated Android push notifications into a Cordova client wrapper app.",
                 "**Django/Python:** Built backend components and implemented services using Django. I also used Scrapy (Django-based web crawler) to build custom content importers. I built a lot of csv importers to bring client data into the platform.",
