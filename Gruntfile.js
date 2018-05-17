@@ -34,7 +34,8 @@ module.exports = function (grunt) {
                 'cp out/resume.html ./jrickerd.github.io/resume.html',
                 'cp out/resume.md ./jrickerd.github.io/resume.md',
                 'cp out/resume.pdf ./jrickerd.github.io/resume.pdf',
-                'cp out/resume.doc ./jrickerd.github.io/resume.doc'
+                'cp out/resume.doc ./jrickerd.github.io/resume.doc',
+                'cp out/resume.txt ./jrickerd.github.io/resume.txt'
             ].join(';')
         }
     }
