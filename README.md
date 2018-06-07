@@ -646,7 +646,7 @@ MIT. Go crazy. See [LICENSE.md][1] for details.
 
 ## Local Instructions
 ```bash
-nvm use default
+nvm use stable # needs to be 8.7.0
 npm install grunt
 npm install
 npm link
@@ -655,7 +655,7 @@ npm link
 curl -L 'https://bitbucket.org/ariya/phantomjs/downloads/phantomjs-2.1.1-macosx.zip' -o phantom.zip
 unzip phantom.zip
 # ln -s phantomjs-2.1.1-macosx/ phantomjs
-export PATH="$PATH:./phantomjs"
+export PATH="$PATH:./phantomjs/bin"
 hackmyresume build resume.json to out/resume.all -t compact
 # or
 grunt resume 

@@ -27,7 +27,7 @@ module.exports = function (grunt) {
     
     shell: {
         resume: {
-            command: 'node src/cli/index.js build resume.json to out/resume.all -t themes/compact -p phantom'
+            command: 'PATH="$PATH:./phantomjs/bin"; node src/cli/index.js build resume.json to out/resume.all -t themes/compact -p phantom'
         },
         publish: {
             command: [
