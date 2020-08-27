@@ -32,9 +32,9 @@ module.exports = function (grunt) {
         publish: {
             command: [
                 'cp out/resume.html ./jrickerd.github.io/resume.html',
-                'cp out/resume.md ./jrickerd.github.io/resume.md',
-                'cp out/resume.pdf ./jrickerd.github.io/resume.pdf',
-                'cp out/resume.doc ./jrickerd.github.io/resume.doc',
+                'cp out/resume.md ./jrickerd.github.io/resume_md.md',
+                // 'cp out/resume.pdf ./jrickerd.github.io/resume.pdf',
+                // 'cp out/resume.doc ./jrickerd.github.io/resume.doc',
                 'cp out/resume.txt ./jrickerd.github.io/resume.txt'
             ].join(';')
         }
@@ -66,6 +66,6 @@ module.exports = function (grunt) {
   grunt.registerTask('publish', ['shell:resume', 'shell:publish']);
   
   // Default task does everything
-  grunt.registerTask('default', [ 'test' ]);
+  grunt.registerTask('default', [ 'resume' ]);
 
 };

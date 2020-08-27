@@ -1,9 +1,9 @@
 {
     "basics": {
         "name": "John Rickerd",
-        "label": "Senior Developer",
-        "summary": "**Full stack and mobile developer.**   [[pdf](http://resume.rickerd.org/resume.pdf)] [[md](http://resume.rickerd.org/resume.md)]",
-        "website": "http://resume.rickerd.org",
+        "label": "Senior Engineer",
+        "summary": "**Senior full stack and mobile engineer.**   [[pdf](resume.pdf)]",
+        "website": "https://resume.rickerd.org",
         "phone": "1.208.395.1290",
         "email": "john@rickerd.org",
         "location": {
@@ -23,11 +23,43 @@
     },
     "work": [
         {
+            "company": "Bodybuilding.com",
+            "website": "https://bodybuilding.com",
+            "position": "Senior Software Engineer",
+            "startDate": "2018-07",
+            "summary": "Senior Software Engineer supporting ECommerce fulfillment platform and third party integration.",
+            "keywords": [
+                "Agile",
+                "C#",
+                "Spring Boot",
+                "Java",
+                "MySQL",
+                "SqlServer",
+                "JIRA",
+                "Python",
+                "Elasticsearch",
+                "Node",
+                "AWS",
+                "Docker",
+                "Terraform"
+            ],
+            "highlights": [
+                "**C#/NServiceBus:** Developed and maintained [NServiceBus](https://particular.net/nservicebus) C# handlers that formed the core of the fulfillment platform.",
+                "**Spring Boot:** Migrated NServiceBus handlers to Spring Boot microservices running in AWS Kubernetes (EKS).",
+                "**Node.js:** Maintained node apps running in ECS and architected a migration path to Spring Boot.",
+                "**AWS:** Developed and administered AWS infrastructure using [Terraform](https://www.terraform.io/).",
+                "**Python:** Supported legacy Python AWS Lambda services and wrote a lot of scripts for arbitrary tasks.",
+                "**Elasticsearch/Kibana:** Maintained es cluster, built kibana dashboards for business users.",
+                "**ANTLR:** Built Slack bot with ANTLR and Spring Boot for infrastructure management.",
+                "**Agile:** Worked with stakeholders and project managers to plan development. Used Jira for sprint planning."
+            ]
+        },
+        {
             "company": "Declara",
             "website": "https://corp.declara.com",
-            "position": "Software Developer",
+            "position": "Senior Software Engineer",
             "startDate": "2014-01",
-            "summary": "Full Spectrum Developer",
+            "summary": "Worked on all platform components - mobile (iOS/Android), backend (Django, Spring Boot) and frontend (Angular/2).",
             "keywords": [
                 "Agile",
                 "Xamarin",
@@ -46,17 +78,23 @@
                 "Angular",
                 "Node",
                 "Kafka",
-                "CSV"
+                "CSV",
+                "REST",
+                "Swagger",
+                "Retrofit",
+                "RxAndroid"
             ],
             "highlights": [
-                "**Xamarin:** I prototyped a Xamarin (C#) Android app in tandem with another engineer who built an iOS app. We determined that unifying the platforms was not practical due to networking libraries.",
-                "**Android:** I assisted our Android developer with backend integration and app architecture. I brought in Dagger and Butterknife to simplify Activity wireup. I also integrated RxAndroid to tame response handling.",
-                "**iOS:** Developed several prototype iOS apps as part of 8 member team. After the team was downsized to 2 engineers, I provided backend support. Eventually, I became the primary iOS developer.",
-                "**Cordova:** Integrated Android push notifications into a Cordova client wrapper app.",
-                "**Django/Python:** Built backend components and implemented services using Django. I also used Scrapy (Django-based web crawler) to build custom content importers. I built a lot of csv importers to bring client data into the platform.",
-                "**Spring:** Implemented backend and external services with Spring. Coordinated services with Kafka and Rabbit. I built real time chat capabilities using Websockets and Rabbit and integrated with the mobile platforms.",
-                "**Angular:** Built and maintained Angular client.",
-                "**Node:** Maintained node.js admin service."
+                "**Xamarin:** Prototyped an Android app using the Xamarin framework (C#/Mono).",
+                "**Cordova:** Integrated Android and iOS push notifications into a Cordova client wrapper app.",
+                "**Android:** Used Retrofit and RxAndroid to integrate with REST backend. Used Dagger and Butterknife to streamline Activity development.",
+                "**iOS:** Supported iOS REST backend integration. Developed and maintained iOS app.",
+                "**Python:** Built backend components and implemented services using Django.",
+                "**Spring Boot:** Integrated backend with Spring Boot. Coordinated services with Kafka and Rabbit.",
+                "**RabbitMQ:** Built chat and user presence using Websockets/STOMP and Rabbit; integrated with the mobile platforms.",
+                "**Angular:** Built and maintained Angular/2 clients.",
+                "**Node.js:** Maintained node.js admin service.",
+                "**Consultant Work:** Assisted with updates and enhancements after joining Bodybuilding.com."
             ]
         },
         {
@@ -73,12 +111,12 @@
                 "ExtJS",
                 "JIRA"
             ],
-            "summary": "Led development of assessment platform and iOS apps. Administered AWS environment.",
+            "summary": "Led design, development, documentation and administration of assessment platforms. Managed outsourced development team.",
             "highlights": [
-                "**[Assessment View](https://behaviorimaging.com/products/assessment-view/)** is a platform for administering alternative assessments for K-12 students. Initially, it was build in PHP using the Zend Framework and a Flash frontend. I worked with a remote team to redesign and build the second version using Symfony2 and ExtJS. I also built and maintained the AWS host infrastructure. While the v2 development was underway, I supported version 1.",
+                "**[Assessment View](https://behaviorimaging.com/products/assessment-view/)** is a platform for administering alternative assessments for K-12 students. Initially, it was built in PHP using the Zend Framework and a Flash frontend. I worked with a remote team to redesign and build the second version using Symfony2 and ExtJS. I also built and maintained the AWS host infrastructure. While the v2 development was underway, I supported version 1.",
                 "**[Behavior Connect](https://behaviorimaging.com/products/behavior-connect/)** is a platform for remotely diagnosing Autism, based on the Assessment View codebase. I oversaw design and development of version 2, including merging AssessmentView functionality.", 
-                "**[NODA](https://behaviorimaging.com/noda/):** NODA was a research project conducted with Georgia Tech and SARRC. An iOS app was developed to allow caregivers to record and upload video of patient behaviors for clinician analysis. The video was tagged with DSM IV generated tags to quantify diagnostics.",
-                "**iOS:** Specified and managed development of specialized versions of Behavior Connect, including custom iOS apps used for video data collection."
+                "**[NODA](https://behaviorimaging.com/noda/):** NODA was a research project conducted with Georgia Tech and [SARRC](https://autismcenter.org/). An iOS app was developed to allow caregivers to record and upload video of patient behaviors for clinician analysis. The video was tagged with DSM IV generated tags to quantify diagnostics.",
+                "**iOS:** Wrote specifications and managed development of specialized versions of Behavior Connect, including custom iOS apps used for video data collection."
             ]
         },
         {
@@ -102,70 +140,34 @@
                 "VSTO (Visual Studio Tools for Office)",
                 "Visual Basic for Applications (VBA)"
             ],
-            "summary": "Software development consultant",
+            "summary": "Consulting Software Engineer",
             "highlights": [
-                "**Idaho Dept of Labor:** Maintained and improved Idaho Department of Labor Unemployment Insurance VB.NET fraud tracking web application.",
-                "**Microsoft:** Developed an application to generate and validate software loan offers. The financial rules were highly dynamic and complex. I implemented a simple DSL to translate textual rules (stored in the DB) to C# Expressions, which were bound to client-side validators. I also implemented a simple ANTLR parser to assist with testing.",
+                "**Idaho Dept of Labor:** Maintained and upgraded Idaho Department of Labor Unemployment Insurance VB.NET fraud tracking web application.",
+                "**Microsoft:** Developed ASP.NET MVC application to generate and validate software loan offers. The financial rules were highly dynamic and complex. I implemented a simple DSL to translate textual rules (stored in the DB) to C# Expressions, which were bound to client-side validators. I also implemented a simple ANTLR parser to assist with testing.",
                 "**Microsoft/ProClarity:** Part of team assisting with Delphi legacy support after Microsoft acquired ProClarity. My focus was localization.",
                 "**Idaho Department of Education:** Longitudinal Data System – worked on ASP.NET MVC user applications, Schoolnet data integration and general reporting.",
                 "**[Healthwise](http://www.healthwise.org):** Consulted as VSTO expert on Excel-based data entry application to simplify medical diagnosis rule entry.",
-                "**Boise Cascade:** I built an Excel app for users to generate material estimates based on structure layout. I also developed a desktop app that parsed lumbermill log data and generated metrics using Excel pivot tables.",
-                "**Idaho Dept of Lands:** Built [timber sale tracking app](http://web.idl.idaho.gov/timbersale/Search.aspx) using Windows Workflow Foundation and ASP.NET; integrated with IDL site.",
-                "**Drupal:** I developed a number of Drupal sites; notable instances include [Craneweb](https://craneweb.com) which allowed users to buy, sell and lease cranes. The [Farmhouse Collection](https://www.farmhousecollection.com) was a furniture site accessible by designers."
-            ]
-        },
-        {
-            "company": "Hewlett Packard",
-            "position": "Software Engineer",
-            "startDate": "2001-01",
-            "endDate": "2005-06",
-            "keywords": [
-                "Java",
-                "JNI",
-                "Rational ClearCase",
-                "SVN"
-            ],
-            "summary": "Software Engineer supporting third party application development",
-            "highlights": [
-                "**Software Engineer:** I developed, documented and supported the Laserjet embedded Chai VM SDK (HP's Java implementation). I used JNI to integrate with the LaserJet scan and fax eCOM functionality."
-            ]
-        },
-        {
-            "company": "Hewlett Packard",
-            "position": "Contract Software Engineer",
-            "startDate": "1998-06",
-            "endDate": "2001-01",
-            "keywords": [
-                "Perl",
-                "Rational ClearCase",
-                "SWIG"
-            ],
-            "summary": "",
-            "highlights": [
-                "**Contract Software Engineer II: ** I worked as a QA engineer using Perl to build and run a test harness. I used [SWIG](http://www.swig.org/) to interface with SCAPI which read low-level scanner data; this enabled automated scan and fax tests."
+                "**Boise Cascade:** Built an Excel app using VBA for users to generate required material estimates based on structure layout. I also developed a desktop app that parsed lumber mill log data and generated business metrics using Excel pivot tables.",
+                "**Idaho Dept of Lands:** Built [timber sale tracking app](http://web.idl.idaho.gov/timbersale/Search.aspx) using Windows Workflow Foundation and ASP.NET.",
+                "**Drupal:** Developed a number of Drupal sites; notable instances include [Craneweb](https://craneweb.com) which allowed users to buy, sell and lease cranes. The [Farmhouse Collection](https://www.farmhousecollection.com) was a furniture site accessible by designers."
             ]
         }
     ],
     "education": [
         {
             "institution": "Boise State University",
-            "startDate": "Sept 1997",
-            "endDate": "May 2000",
-            "summary": "Computer Science and Math.",
+            "summary": "Computer Science",
+            "title": "BS"
+        },
+        {
+            "institution": "Boise State University",
+            "summary": "Math",
             "title": "BS"
         },
         {
             "institution": "University of Idaho",
-            "startDate": "Sept 1989",
-            "endDate": "May 1991",
             "summary": "Classical Languages.",
             "title": "BA"
-        },
-        {
-            "institution": "University of Puget Sound",
-            "startDate": "Sept 1987",
-            "endDate": "May 1989",
-            "summary": "Business Leadership, Computer Science and Honors Program."
         }
     ],
     "skills": [
@@ -175,7 +177,6 @@
             "keywords": [
                 "JavaScript",
                 "jQuery",
-                "ExtJS",
                 "Angular"
             ]
         },
@@ -199,10 +200,9 @@
             "level": "advanced",
             "keywords": [
                 "Django",
-                "Drupal",
-                "Spring",
-                "Symfony2",
-                "ASP.NET MVC"
+                "Spring Boot",
+                "ASP.NET MVC",
+                "Node"
             ]
         },
         {
@@ -214,12 +214,16 @@
                 "Java",
                 "JavaScript",
                 "C#",
-                "VB.NET",
-                "VBA",
-                "C/C++",
-                "PowerShell",
-                "Objective-C",
-                "Perl"
+                "Objective-C"
+            ]
+        },
+        {
+            "name": "Database",
+            "level": "advanced",
+            "keywords": [
+                "PostgreSQL",
+                "MySQL",
+                "SqlServer"
             ]
         },
         {
@@ -228,9 +232,14 @@
             "keywords": [
                 "Git",
                 "Gradle",
+                "Maven",
+                "RabbitMQ",
+                "NServiceBus",
                 "AWS",
-                "Kafka"
-            ]
+                "Terraform",
+                "Kubernetes",
+                "Docker",
+                "ANTLR"]
         }
     ]
 }

@@ -1,6 +1,39 @@
 HackMyResume
 ===
 
+## Local Instructions
+```bash
+# after checkout, setup submodule
+git submodule init
+git submodule update
+
+# if there's a git-lfs error:
+brew install git-lfs
+
+# set up nvm/npm
+nvm use stable # needs to be 8.7.0
+npm install grunt
+npm install
+npm link
+
+# install PhantomJS
+curl -L 'https://bitbucket.org/ariya/phantomjs/downloads/phantomjs-2.1.1-macosx.zip' -o phantom.zip
+unzip phantom.zip
+ln -s phantomjs-2.1.1-macosx/ phantomjs
+export PATH="$PATH:./phantomjs/bin"
+hackmyresume build resume.json to out/resume.all -t compact
+# or
+grunt resume 
+```
+
+## Publish
+```
+grunt publish
+```
+
+Open the html and print to pdf, copy to `jrickerd.github.io`
+
+Check for themes in node_modules/fresh_themes/themes and node_modules/jsonresume-theme-*
 [![Latest release][img-release]][latest-release]
 [![Build status (MASTER)][img-master]][travis-url-master]
 [![Build status (DEV)][img-dev]][travis-url-dev]
@@ -643,21 +676,3 @@ MIT. Go crazy. See [LICENSE.md][1] for details.
 [gh]: https://gitter.im/hacksalot/HackMyResume?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge
 [badge]: https://badges.gitter.im/hacksalot/HackMyResume.svg
 [hrh]: http://handlebarsjs.com/reference.html#base-registerHelper
-
-## Local Instructions
-```bash
-nvm use stable # needs to be 8.7.0
-npm install grunt
-npm install
-npm link
-
-# install PhantomJS
-curl -L 'https://bitbucket.org/ariya/phantomjs/downloads/phantomjs-2.1.1-macosx.zip' -o phantom.zip
-unzip phantom.zip
-# ln -s phantomjs-2.1.1-macosx/ phantomjs
-export PATH="$PATH:./phantomjs/bin"
-hackmyresume build resume.json to out/resume.all -t compact
-# or
-grunt resume 
-```
-Check for themes in node_modules/fresh_themes/themes and node_modules/jsonresume-theme-*

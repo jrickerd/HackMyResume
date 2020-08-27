@@ -632,7 +632,8 @@ var _fromTo = function( dateA, dateB, fmt, sep, fallback ) {
   sep = (sep && String.is(sep) && sep) || ' — ';
 
   if (_.contains( reserved, dateATrim )) {
-    dateFrom = fallback || '???';
+      return '';
+    // dateFrom = fallback || '???';
   } else {
     dateTemp = FluentDate.fmt( dateA );
     dateFrom = dateTemp.format( fmt );
