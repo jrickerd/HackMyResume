@@ -7,7 +7,7 @@
         "phone": "1.208.395.1290",
         "email": "john@rickerd.org",
         "location": {
-            "address": "John Rickerd\n7646 ODaniel Ct\nGlen Burnie, MD 21061",
+            "address": "John Rickerd\n721 Gnome Ct\nGlen Burnie, MD 21061",
             "postalCode": "21061",
             "city": "Glen Burnie",
             "countryCode": "US",
@@ -27,7 +27,7 @@
             "website": "https://bodybuilding.com",
             "position": "Senior Software Engineer",
             "startDate": "2018-07",
-            "summary": "Senior Software Engineer supporting ECommerce fulfillment platform and third party integration.",
+            "summary": "Senior Software Engineer supporting ecommerce fulfillment platform and third party integrations.",
             "keywords": [
                 "Agile",
                 "C#",
@@ -41,17 +41,21 @@
                 "Node",
                 "AWS",
                 "Docker",
-                "Terraform"
+                "Terraform",
+                "RabbitMQ"
             ],
             "highlights": [
-                "**C#/NServiceBus:** Developed and maintained [NServiceBus](https://particular.net/nservicebus) C# handlers that formed the core of the fulfillment platform.",
+                "**Shopify:** We replatformed to Shopify in 2021. I built the Shopify to fulfillment pipeline and integrated the financial systems (primarily Great Plains).",
+                "**Documentation:** Documentation was largely missing/outdated, I reorganized and updated it.",
+                "**C#/NServiceBus/RabbitMQ:** Developed and maintained [NServiceBus](https://particular.net/nservicebus) C# handlers that formed the core of the fulfillment platform.",
                 "**Spring Boot:** Migrated NServiceBus handlers to Spring Boot microservices running in AWS Kubernetes (EKS).",
                 "**Node.js:** Maintained node apps running in ECS and architected a migration path to Spring Boot.",
                 "**AWS:** Developed and administered AWS infrastructure using [Terraform](https://www.terraform.io/).",
                 "**Python:** Supported legacy Python AWS Lambda services and wrote a lot of scripts for arbitrary tasks.",
+                "**PERL:** Maintained legacy perl scripts",
                 "**Elasticsearch/Kibana:** Maintained es cluster, built kibana dashboards for business users.",
                 "**ANTLR:** Built Slack bot with ANTLR and Spring Boot for infrastructure management.",
-                "**Agile:** Worked with stakeholders and project managers to plan development. Used Jira for sprint planning."
+                "**Agile:** Planned, estimated and tracked work in Jira - toggled between scrum and kanban."
             ]
         },
         {
@@ -59,6 +63,7 @@
             "website": "https://corp.declara.com",
             "position": "Senior Software Engineer",
             "startDate": "2014-01",
+            "endDate": "2020-03",
             "summary": "Worked on all platform components - mobile (iOS/Android), backend (Django, Spring Boot) and frontend (Angular/2).",
             "keywords": [
                 "Agile",
@@ -166,7 +171,7 @@
         },
         {
             "institution": "University of Idaho",
-            "summary": "Classical Languages.",
+            "summary": "Classical Languages",
             "title": "BA"
         }
     ],
