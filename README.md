@@ -26,6 +26,8 @@ hackmyresume build resume.json to out/resume.all -t compact
 grunt resume 
 ```
 
+PDF conversion seems broken, use https://html2pdf.com/. Copy output to jrickerd.github.io.
+
 ## Publish
 ```
 grunt publish
