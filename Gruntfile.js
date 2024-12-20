@@ -1,4 +1,4 @@
-module.exports = function (grunt) {
+ module.exports = function (grunt) {
 
   'use strict';
 
@@ -27,14 +27,15 @@ module.exports = function (grunt) {
     
     shell: {
         resume: {
-            command: 'PATH="$PATH:./phantomjs/bin"; node src/cli/index.js build resume.json to out/resume.all -t themes/compact -p phantom'
+            command: [
+                'PATH="$PATH:./phantomjs/bin"; node src/cli/index.js build resume.json to out/resume.all -t themes/compact -p phantom',
+                '/Applications/Google\\ Chrome.app/Contents/MacOS/Google\\ Chrome --headless --print-to-pdf=out/resume.pdf --no-pdf-header-footer out/resume.html'
+            ].join(';')
         },
         publish: {
             command: [
                 'cp out/resume.html ./jrickerd.github.io/resume.html',
                 'cp out/resume.md ./jrickerd.github.io/resume_md.md',
-                // 'cp out/resume.pdf ./jrickerd.github.io/resume.pdf',
-                // 'cp out/resume.doc ./jrickerd.github.io/resume.doc',
                 'cp out/resume.txt ./jrickerd.github.io/resume.txt'
             ].join(';')
         }
