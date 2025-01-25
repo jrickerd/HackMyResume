@@ -4,7 +4,7 @@
   "description": "Generate polished résumés and CVs in HTML, Markdown, LaTeX, MS Word, PDF, plain text, JSON, XML, YAML, smoke signal, and carrier pigeon.",
   "repository": {
     "type": "git",
-    "url": "https://github.com/hacksalot/HackMyResume.git"
+    "url": "git+https://github.com/hacksalot/HackMyResume.git"
   },
   "scripts": {
     "test": "grunt clean:test && mocha --exit",
@@ -66,6 +66,7 @@
     "is-my-json-valid": "^2.20.0",
     "json-lint": "^0.1.0",
     "jsonlint": "^1.6.3",
+    "jsonresume-theme-onepage-updated": "^1.0.3",
     "lodash": "^4.17.15",
     "marked": "^0.3.19",
     "mkdirp": "^0.5.1",
@@ -106,5 +107,8 @@
     "jsonresume-theme-sceptile": "^1.0.5",
     "mocha": "^7.0.0",
     "stripcolorcodes": "^0.1.0"
+  },
+  "directories": {
+    "test": "test"
   }
 }

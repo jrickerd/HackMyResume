@@ -4,8 +4,6 @@
         "label": "Senior Engineer",
         "summary": "**Senior full stack and mobile engineer.**   [[pdf](resume.pdf)]",
         "website": "https://resume.rickerd.org",
-        "phone": "1.208.395.1290",
-        "email": "john@rickerd.org",
         "location": {
             "address": "John Rickerd\n721 Gnome Ct\nGlen Burnie, MD 21061",
             "postalCode": "21061",
@@ -18,14 +16,20 @@
                 "network": "GitHub",
                 "username": "jrickerd",
                 "url": "https://github.com/jrickerd"
+            },
+            {
+                "network": "LinkedIn",
+                "username": "jrickerd",
+                "url": "https://www.linkedin.com/in/john-rickerd-16048771/"
             }
         ]
     },
     "work": [
         {
             "company": "Bodybuilding.com",
+            "name": "Bodybuilding.com",
             "website": "https://bodybuilding.com",
-            "position": "Senior Software Engineer II",
+            "position": "Senior Software Engineer",
             "startDate": "2018-07",
             "endDate": "2024-12",
             "summary": "Senior Software Engineer supporting ecommerce fulfillment platform and third party integrations.",
@@ -58,14 +62,15 @@
                 "**Python:** Supported legacy Python AWS Lambda services and wrote a lot of scripts for arbitrary tasks.",
                 "**ANTLR:** Built Slack bot with ANTLR and Spring Boot for infrastructure management.",
                 "**Agile:** Planned, estimated and tracked work in Jira.",
-                "**Reporting:** Lots and lots of database work to fix problems and generate reports."
+                "**Reporting:** Built reports for business. Used Graphql, REST and SQL to pull data from various systems and databases."
             ]
         },
         {
             "company": "Declara",
+            "name": "Declara",
             "position": "Senior Software Engineer",
             "startDate": "2014-01",
-            "endDate": "2020-03",
+            "endDate": "2018-08",
             "summary": "Worked on all platform components - mobile (iOS/Android), backend (Django, Spring Boot) and frontend (Angular/2).",
             "keywords": [
                 "Agile",
@@ -92,20 +97,20 @@
                 "Xamarin"
             ],
             "highlights": [
-                "**Xamarin:** Prototyped an Android app using the Xamarin framework (C#/Mono).",
+                "**Xamarin:** Prototyped Android app using the Xamarin framework (C#/Mono).",
                 "**Cordova:** Integrated Android and iOS push notifications into a Cordova client wrapper app.",
                 "**Android:** Used Retrofit and RxAndroid to integrate with REST backend. Used Dagger and Butterknife to streamline development.",
                 "**iOS:** Supported iOS REST backend integration. Developed and maintained iOS app.",
-                "**Python:** Built backend components and implemented services using Django.",
+                "**Python:** Built backend components and services using Django.",
                 "**Spring Boot:** Integrated backend with Spring Boot. Coordinated services with Kafka and Rabbit.",
-                "**RabbitMQ:** Built chat and user presence using Websockets/STOMP and Rabbit; integrated with the mobile platforms.",
-                "**Angular:** Built and maintained Angular/2 clients.",
-                "**Node.js:** Maintained node.js admin service.",
-                "**Consultant Work:** Assisted with updates and enhancements after joining Bodybuilding.com."
+                "**RabbitMQ:** Built chat and user presence using Websockets/STOMP and Rabbit, integrated with the mobile apps.",
+                "**Angular:** Built and maintained AngularJS/Angular clients.",
+                "**Node.js:** Built node.js admin service."
             ]
         },
         {
             "company": "Behavior Imaging",
+            "name": "Behavior Imaging",
             "website": "https://behaviorimaging.com/",
             "position": "Director of Technology",
             "startDate": "2012-01",
@@ -120,14 +125,15 @@
             ],
             "summary": "Led design, development, documentation and administration of assessment platforms. Managed outsourced development team.",
             "highlights": [
-                "**[Assessment View](https://behaviorimaging.com/products/assessment-view/)** is a platform for administering alternative assessments for K-12 students. Initially, it was built in PHP using the Zend Framework and a Flash frontend. I worked with a remote team to redesign and build the second version using Symfony2 and ExtJS. I also built and maintained the AWS host infrastructure. While the v2 development was underway, I supported version 1.",
-                "**[Behavior Connect](https://behaviorimaging.com/products/behavior-connect/)** is a platform for remotely diagnosing Autism, based on the Assessment View codebase. I oversaw design and development of version 2, including merging AssessmentView functionality.", 
-                "**[NODA](https://behaviorimaging.com/noda/):** NODA (Naturalistic Observation Diagnostic Assessment) was a research project conducted with Georgia Tech and [SARRC](https://autismcenter.org/). An iOS app was developed to allow caregivers to record and upload video of patient behaviors for clinician analysis.",
-                "**iOS:** Wrote specifications and managed development of specialized versions of Behavior Connect, including custom iOS apps used for video data collection."
+                "**[Assessment View](https://behaviorimaging.com/products/assessment-view/)** is a platform for administering alternative assessments for K-12 students. Initially, it was built in PHP using the Zend Framework and a Flash frontend. Collaborated with a remote team to redesign and build the second version using Symfony2 and ExtJS. Additionally, built and maintained the AWS host infrastructure. During the v2 development, provided ongoing support for version 1.",
+                "**[Behavior Connect](https://behaviorimaging.com/products/behavior-connect/)** is a platform for remotely diagnosing Autism, based on the Assessment View codebase. Oversaw design and development of version 2, including merging AssessmentView functionality and enhancing its usability.",
+                "**[NODA](https://behaviorimaging.com/noda/):** NODA (Naturalistic Observation Diagnostic Assessment) was a research initiative conducted with Georgia Tech and [SARRC](https://autismcenter.org/). Collaborated on an iOS app enabling caregivers to record and upload video footage of patient behaviors for clinician analysis.",
+                "**iOS:** Authored specifications and managed the development of specialized versions of Behavior Connect, including custom iOS apps designed for video data collection and analysis."
             ]
         },
         {
             "company": "Blackfin/Xtreme Consulting",
+            "name": "Blackfin/Xtreme Consulting",
             "position": "Software Engineer",
             "startDate": "2006-05",
             "endDate": "2012-01",
@@ -149,26 +155,21 @@
             ],
             "summary": "Consulting Software Engineer",
             "highlights": [
-                "**Idaho Dept of Labor:** Maintained and upgraded Idaho Department of Labor Unemployment Insurance VB.NET fraud tracking web application.",
-                "**Microsoft:** Developed ASP.NET MVC application to generate and validate software loan offers. The financial rules were highly dynamic and complex. I implemented a simple DSL to translate textual rules (stored in the DB) to C# Expressions, which were bound to client-side validators.",
-                "**Microsoft/ProClarity:** Part of team assisting with Delphi legacy support after Microsoft acquired ProClarity. My focus was localization.",
+                "**Idaho Dept of Labor:** Updated Idaho Department of Labor Unemployment Insurance VB.NET fraud tracking web application.",
+                "**Microsoft:** Developed ASP.NET MVC/jQuery application to generate EU compliant loan terms for large software purchases.",
+                "**Microsoft/ProClarity:** Supported legacy ProClarity app (Delphi based) after Microsoft acquisition.",
                 "**Idaho Department of Education:** Longitudinal Data System – worked on ASP.NET MVC user applications, Schoolnet data integration and general reporting.",
                 "**[Healthwise](http://www.healthwise.org):** Consulted as VSTO expert on Excel-based data entry application to simplify medical diagnosis rule entry.",
-                "**Boise Cascade:** Built an Excel app using VBA for users to generate required material estimates based on structure layout. I also developed a desktop app that parsed lumber mill log data and generated business metrics using Excel pivot tables.",
+                "**Boise Cascade:** Built Excel VBA app for generating estimates in the US and UK. Developed desktop app that parsed lumbermill log data and generated Excel reports and pivot tables.",
                 "**Idaho Dept of Lands:** Built [timber sale tracking app](http://web.idl.idaho.gov/timbersale/Search.aspx) using Windows Workflow Foundation and ASP.NET.",
-                "**Drupal:** Developed a number of Drupal sites; notable instances include [Craneweb](https://craneweb.com) which allowed users to buy, sell and lease cranes. The [Farmhouse Collection](https://www.farmhousecollection.com) was a furniture site accessible by designers."
+                "**Drupal:** Developed Drupal sites including [Craneweb](https://craneweb.com) for buying, selling and leasing cranes. The [Farmhouse Collection](https://www.farmhousecollection.com) was a furniture site accessible by designers."
             ]
         }
     ],
     "education": [
         {
             "institution": "Boise State University",
-            "summary": "Computer Science",
-            "title": "BS"
-        },
-        {
-            "institution": "Boise State University",
-            "summary": "Math",
+            "summary": "Computer Science, Mathematics",
             "title": "BS"
         },
         {
@@ -206,6 +207,7 @@
             "name": "Frameworks",
             "level": "advanced",
             "keywords": [
+                "Angular",
                 "ASP.NET MVC",
                 "Node.js",
                 "Spring Boot"

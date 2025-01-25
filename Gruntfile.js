@@ -28,7 +28,9 @@
     shell: {
         resume: {
             command: [
-                'PATH="$PATH:./phantomjs/bin"; node src/cli/index.js build resume.json to out/resume.all -t themes/compact -p phantom',
+                'node src/cli/index.js build resume.json to out/resume-nopii.all -t themes/compact',
+                'node src/cli/index.js build resume.json pii.json to out/resume.all -t themes/compact',
+                '/Applications/Google\\ Chrome.app/Contents/MacOS/Google\\ Chrome --headless --print-to-pdf=out/resume-nopii.pdf --no-pdf-header-footer out/resume-nopii.html',
                 '/Applications/Google\\ Chrome.app/Contents/MacOS/Google\\ Chrome --headless --print-to-pdf=out/resume.pdf --no-pdf-header-footer out/resume.html'
             ].join(';')
         },
