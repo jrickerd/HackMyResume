@@ -38,7 +38,8 @@
             command: [
                 'cp out/resume.html ./jrickerd.github.io/resume.html',
                 'cp out/resume.md ./jrickerd.github.io/resume_md.md',
-                'cp out/resume.txt ./jrickerd.github.io/resume.txt'
+                'cp out/resume.txt ./jrickerd.github.io/resume.txt',
+                'cp out/resume.pdf ./jrickerd.github.io/resume.pdf'
             ].join(';')
         }
     }

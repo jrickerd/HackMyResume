@@ -1,9 +1,8 @@
 {
   "basics": {
-    "phone": "1.208.395.1290",
     "email": "john@rickerd.org",
     "location": {
-      "address": "John Rickerd\n721 Gnome Ct\nGlen Burnie, MD 21061"
+      "address": "Glen Burnie, MD 21061"
     }
   }
 }
