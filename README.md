@@ -3,7 +3,7 @@ HackMyResume
 
 ## Local Instructions
 ```bash
-# after checkout, setup submodule
+# after checkout, setup submodule (for rickerd.github.io)
 git submodule init
 git submodule update
 
@@ -11,16 +11,19 @@ git submodule update
 brew install git-lfs
 
 # set up nvm/npm
-nvm use stable # needs to be 8.7.0
+nvm use stable # needs to be 10
 npm install grunt
 npm install
 npm link
 
-# install PhantomJS
-curl -L 'https://bitbucket.org/ariya/phantomjs/downloads/phantomjs-2.1.1-macosx.zip' -o phantom.zip
-unzip phantom.zip
-ln -s phantomjs-2.1.1-macosx/ phantomjs
-export PATH="$PATH:./phantomjs/bin"
+# install chromium, update Gruntfile path if needed
+
+# install PhantomJS DEPRECATED
+#curl -L 'https://bitbucket.org/ariya/phantomjs/downloads/phantomjs-2.1.1-macosx.zip' -o phantom.zip
+#unzip phantom.zip
+#ln -s phantomjs-2.1.1-macosx/ phantomjs
+#export PATH="$PATH:./phantomjs/bin"
+
 hackmyresume build resume.json to out/resume.all -t compact
 # or
 grunt resume 

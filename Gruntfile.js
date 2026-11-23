@@ -30,8 +30,8 @@
             command: [
                 'node src/cli/index.js build resume.json to out/resume-nopii.all -t themes/compact',
                 'node src/cli/index.js build resume.json pii.json to out/resume.all -t themes/compact',
-                '/Applications/Google\\ Chrome.app/Contents/MacOS/Google\\ Chrome --headless --print-to-pdf=out/resume-nopii.pdf --no-pdf-header-footer out/resume-nopii.html',
-                '/Applications/Google\\ Chrome.app/Contents/MacOS/Google\\ Chrome --headless --print-to-pdf=out/resume.pdf --no-pdf-header-footer out/resume.html',
+                '/usr/bin/chromium --headless --print-to-pdf=out/resume-nopii.pdf --no-pdf-header-footer out/resume-nopii.html',
+                '/usr/bin/chromium --headless --print-to-pdf=out/resume.pdf --no-pdf-header-footer out/resume.html',
                 'cp out/resume.pdf out/john_rickerd_resume.pdf'
             ].join(';')
         },
@@ -41,7 +41,7 @@
                 'cp out/resume.md ./jrickerd.github.io/resume_md.md',
                 'cp out/resume.txt ./jrickerd.github.io/resume.txt',
                 'cp out/resume.pdf ./jrickerd.github.io/resume.pdf',
-kk            ].join(';')
+            ].join(';')
         }
     }
 

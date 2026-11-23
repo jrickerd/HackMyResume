@@ -5,7 +5,6 @@ local/
 npm-debug.log
 *.map
 out/
-*.css
 
 # Emacs detritus
 # -*- mode: gitignore; -*-
